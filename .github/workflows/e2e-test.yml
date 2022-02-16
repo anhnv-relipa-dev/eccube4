@@ -1,7 +1,9 @@
 name: E2E test for EC-CUBE
 on:
-  schedule:
-  - cron: "0 18 * * *"
+  push:
+    branches:
+      - main
+
 jobs:
   codeception:
     name: Codeception
