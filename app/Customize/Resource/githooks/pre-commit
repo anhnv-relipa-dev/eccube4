@@ -1,0 +1,5 @@
+#!/bin/sh
+
+exec vendor/bin/phpstan analyze app/Customize --error-format=table
+
+
